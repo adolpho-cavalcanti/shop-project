@@ -6976,9 +6976,26 @@ header.main-header {
 }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-.bg {
-	background-attachment: scroll !important;
-	-webkit-background-size:cover;
-	background-position:center;
+	.bg {
+		background-attachment: scroll !important;
+		-webkit-background-size:cover;
+		background-position:center;
+	}
 }
+
+.services-one{
+	padding:20px;
+	background-color: #333;
+	border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+	.services-one{
+		padding:0px;
+		border-radius: 5px;
+		margin: 20px 0;
+	}
+	.service-start{
+		margin-top: 180px;
+	}
+  }
