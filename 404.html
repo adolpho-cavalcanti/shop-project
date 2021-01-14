@@ -4,18 +4,18 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>Citybook -Directory Listing Template</title>
+        <title>Montes Claros Shopping</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-        <!--=============== css  ===============-->	
+        <!--=============== css  ===============-->
         <link type="text/css" rel="stylesheet" href="css/reset.css">
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon-shopping.png">
     </head>
     <body>
         <!--loader-->
@@ -30,103 +30,59 @@
             <header class="main-header dark-header fs-header sticky">
                 <div class="header-inner">
                     <div class="logo-holder">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="images/logonovac.png" alt=""></a>
                     </div>
                     <div class="header-search vis-header-search">
                         <div class="header-search-input-item">
                             <input type="text" placeholder="Keywords" value=""/>
                         </div>
                         <div class="header-search-select-item">
-                            <select data-placeholder="All Categories" class="chosen-select" >
-                                <option>All Categories</option>
-                                <option>Shops</option>
-                                <option>Hotels</option>
-                                <option>Restaurants</option>
+                            <select data-placeholder="Categorias" class="chosen-select" >
+                                <option>Categorias</option>
+                                <option>Lojas</option>
+                                <option>Lazer</option>
+                                <option>Restaurantes</option>
                                 <option>Fitness</option>
-                                <option>Events</option>
+                                <option>Eventos</option>
                             </select>
                         </div>
-                        <button class="header-search-button" onclick="window.location.href='listing.html'">Search</button>
+                        <button class="header-search-button" onclick="window.location.href='listing.html'">Procurar</button>
                     </div>
-                    <div class="show-search-button"><i class="fa fa-search"></i> <span>Search</span></div>
-                    <a href="dashboard-add-listing.html" class="add-list">Add Listing <span><i class="fa fa-plus"></i></span></a>
-                    <div class="show-reg-form modal-open"><i class="fa fa-sign-in"></i>Sign In</div>
-                    <!-- nav-button-wrap--> 
+                    <div class="show-search-button"><i class="fa fa-search"></i> <span>Procurar</span></div>
+                    <a href="dashboard-add-listing.html" class="add-list">Add sua Loja <span><i class="fa fa-plus"></i></span></a>
+                    <div class="show-reg-form modal-open"><i class="fa fa-sign-in"></i>Entrar</div>
+                    <!-- nav-button-wrap-->
                     <div class="nav-button-wrap color-bg">
                         <div class="nav-button">
                             <span></span><span></span><span></span>
                         </div>
                     </div>
                     <!-- nav-button-wrap end-->
-                    <!--  navigation --> 
+                    <!--  navigation -->
                     <div class="nav-holder main-menu">
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#">Home <i class="fa fa-caret-down"></i></a>
-                                    <!--second level -->   
-                                    <ul>
-                                        <li><a href="index.html">Parallax Image</a></li>
-                                        <li><a href="index2.html">Video</a></li>
-                                        <li><a href="index3.html">Map</a></li>
-                                        <li><a href="index4.html">Slideshow</a></li>
-                                        <li><a href="index5.html">Slider</a></li>
-                                    </ul>
-                                    <!--second level end-->
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Listings <i class="fa fa-caret-down"></i></a>
+                                    <a href="listing.html">Lojas</a>
                                     <!--second level -->
                                     <ul>
-                                        <li><a href="listing.html">Column map</a></li>
-                                        <li><a href="listing2.html">Column map 2</a></li>
-                                        <li><a href="listing3.html">Fullwidth Map</a></li>
-                                        <li><a href="listing4.html">Fullwidth Map 2</a></li>
-                                        <li><a href="listing5.html">Without Map</a></li>
-                                        <li><a href="listing6.html">Without Map 2</a></li>
-                                        <li>
-                                            <a href="#">Single <i class="fa fa-caret-down"></i></a>
-                                            <!--third  level  -->
-                                            <ul>
-                                                <li><a href="listing-single.html">Style 1</a></li>
-                                                <li><a href="listing-single2.html">Style 2</a></li>
-                                                <li><a href="listing-single3.html">Style 3</a></li>
-												<li><a href="listing-single4.html">Style 4</a></li>
-                                            </ul>
-                                            <!--third  level end-->
-                                        </li>
+                                        <li><a href="listing-single2.html">Loja Exemplo</a></li>
                                     </ul>
                                     <!--second level end-->
                                 </li>
-                                <li>
-                                    <a href="blog.html">News</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="act-link">Pages <i class="fa fa-caret-down"></i></a>
-                                    <!--second level -->   
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="contacts.html">Contacts</a></li>
-                                        <li><a href="author-single.html">User single</a></li>
-                                        <li><a href="how-itworks.html">How it Works</a></li>
-                                        <li><a href="pricing-tables.html">Pricing</a></li>
-                                        <li><a href="dashboard-myprofile.html">User Dasboard</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                        <li><a href="dashboard-add-listing.html">Add Listing</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="header2.html">Header 2</a></li>
-                                        <li><a href="footer-fixed.html">Footer Fixed</a></li>
-                                    </ul>
-                                    <!--second level end-->                                
-                                </li>
+                                <li><a href="about.html">Sobre</a></li>
+                                <li><a href="contacts.html">Contatos</a></li>
+                                <li><a href="how-itworks.html">Serviços</a></li>
                             </ul>
                         </nav>
                     </div>
                     <!-- navigation  end -->
                 </div>
             </header>
-            <!--  header end -->	
+            <!--  header end -->
             <!-- wrapper -->	
             <div id="wrapper">
                 <!--  content  --> 
@@ -139,20 +95,20 @@
                         <div class="container">
                             <div class="error-wrap">
                                 <h2>404</h2>
-                                <p>We're sorry, but the Page you were looking for, couldn't be found.</p>
+                                <p>Lamentamos, mas a página que você estava procurando não foi encontrada.</p>
                                 <div class="clearfix"></div>
                                 <form action="#">
-                                    <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search...">
+                                    <input name="se" id="se" type="text" class="search" placeholder="Procurar.." value="Search...">
                                     <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
                                 </form>
                                 <div class="clearfix"></div>
                                 <p>Or</p>
-                                <a href="index.html" class="btn  big-btn  color-bg flat-btn">Back to Home Page<i class="fa fa-angle-right"></i></a>
+                                <a href="index.html" class="btn  big-btn  color-bg flat-btn">Voltar a página principal<i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </section>
                     <!--  section  end--> 
-                    <!--  section  --> 
+                    <!--section -->
                     <section class="gradient-bg">
                         <div class="cirle-bg">
                             <div class="bg" data-bg="images/bg/circle.png"></div>
@@ -161,10 +117,10 @@
                             <div class="join-wrap fl-wrap">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h3>Join our online community</h3>
-                                        <p>Grow your marketing and be happy with your online business</p>
+                                        <h3>Você tem perguntas ?</h3>
+                                        <p>Entre em contato conosco</p>
                                     </div>
-                                    <div class="col-md-4"><a href="#" class="join-wrap-btn modal-open">Sign Up <i class="fa fa-sign-in"></i></a></div>
+                                    <div class="col-md-4"><a href="contacts.html" class="join-wrap-btn">Entrar em contato <i class="fa fa-envelope-o"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -179,77 +135,56 @@
             <footer class="main-footer dark-footer  ">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="footer-widget fl-wrap">
-                                <h3>About Us</h3>
+                                <h3>Montes Claros Shopping</h3>
                                 <div class="footer-contacts-widget fl-wrap">
-                                    <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam. </p>
                                     <ul  class="footer-contacts fl-wrap">
-                                        <li><span><i class="fa fa-envelope-o"></i> Mail :</span><a href="#" target="_blank">yourmail@domain.com</a></li>
-                                        <li> <span><i class="fa fa-map-marker"></i> Adress :</span><a href="#" target="_blank">USA 27TH Brooklyn NY</a></li>
-                                        <li><span><i class="fa fa-phone"></i> Phone :</span><a href="#">+7(111)123456789</a></li>
+                                        <li><a href="#" target="_blank">Lojas</a></li>
+                                        <li><a href="#" target="_blank">Alimentação</a></li>
+                                        <li><a href="#" target="_blank">Eventos</a></li>
+                                        <li><a href="#" target="_blank">Serviços</a></li>
+                                        <li><a href="#" target="_blank">O Shopping</a></li>
+                                        <li><a href="#" target="_blank">Comercialização</a></li>
+                                        <li><a href="#" target="_blank">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="footer-widget fl-wrap">
-                                <h3>Our Last News</h3>
-                                <div class="widget-posts fl-wrap">
+                                <h3>Horário de Funcionamento</h3>
+                                <div class="footer-contacts-widget fl-wrap">
                                     <ul>
-                                        <li class="clearfix">
-                                            <a href="#"  class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt=""></a>
-                                            <div class="widget-posts-descr">
-                                                <a href="#" title="">Vivamus dapibus rutrum</a>
-                                                <span class="widget-posts-date"> 21 Mar 09.05 </span> 
-                                            </div>
+                                        <li>
+                                            <h4>LOJAS DE ALIMENTAÇÃO E LAZER</h4>
+                                            <ul>
+                                                <li><span><strong>Segunda a Domingo</strong></span></li>
+                                                <li>10h às 22h</li>
+                                            </ul>
                                         </li>
-                                        <li class="clearfix">
-                                            <a href="#"  class="widget-posts-img"><img src="images/all/2.jpg" class="respimg" alt=""></a>
-                                            <div class="widget-posts-descr">
-                                                <a href="#" title=""> In hac habitasse platea</a>
-                                                <span class="widget-posts-date"> 7 Mar 18.21 </span> 
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <a href="#"  class="widget-posts-img"><img src="images/all/3.jpg" class="respimg" alt=""></a>
-                                            <div class="widget-posts-descr">
-                                                <a href="#" title="">Tortor tempor in porta</a>
-                                                <span class="widget-posts-date"> 7 Mar 16.42 </span>
-                                            </div>
+                                        <li>
+                                            <h4>DEMAIS LOJAS</h4>
+                                            <ul>
+                                                <li><span><strong>Segunda a Sábado</strong></span></li>
+                                                <li>10h às 22h</li>
+                                                <li></li>
+                                                <li><span><strong>Domingo e Feriados</strong></span></li>
+                                                <li>14h às 20h</li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div class="footer-widget fl-wrap">
-                                <h3>Our  Twitter</h3>
-                                <div id="footer-twiit"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="footer-widget fl-wrap">
-                                <h3>Subscribe</h3>
+                                <h3>Contato</h3>
                                 <div class="subscribe-widget fl-wrap">
-                                    <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-                                    <div class="subcribe-form">
-                                        <form id="subscribe">
-                                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Email" spellcheck="false" type="text">
-                                            <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fa fa-rss"></i> Subscribe</button>
-                                            <label for="subscribe-email" class="subscribe-message"></label>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="footer-widget fl-wrap">
-                                    <div class="footer-menu fl-wrap">
-                                        <ul>
-                                            <li><a href="#">Home </a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Listing</a></li>
-                                            <li><a href="#">Contacts</a></li>
-                                        </ul>
-                                    </div>
+                                    <ul  class="footer-contacts fl-wrap">
+                                        <li><span><i class="fa fa-envelope-o"></i>sac@montesclarosshopping.com.br</li>
+                                        <li><span><i class="fa fa-phone"></i>(38) 3220-8784</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -260,11 +195,11 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="about-widget">
-                                    <img src="images/logo.png" alt="">
+                                    <img src="images/logonovac.png" alt="">
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="copyright"> &#169; Citybook  2018 .  All rights reserved.</div>
+                                <div class="copyright"> &#169; Montes Claros Shopping 2020 .  Todos os direitos reservados.</div>
                             </div>
                             <div class="col-md-4">
                                 <div class="footer-social">
@@ -305,10 +240,10 @@
                                     <div class="custom-form">
                                         <form method="post"  name="registerform">
                                             <label>Username or Email Address * </label>
-                                            <input name="email" type="text"   onClick="this.select()" value=""> 
+                                            <input name="email" type="text"   onClick="this.select()" value="">
                                             <label >Password * </label>
-                                            <input name="password" type="password"   onClick="this.select()" value="" > 
-                                            <button type="submit"  class="log-submit-btn"><span>Log In</span></button> 
+                                            <input name="password" type="password"   onClick="this.select()" value="" >
+                                            <button type="submit"  class="log-submit-btn"><span>Log In</span></button>
                                             <div class="clearfix"></div>
                                             <div class="filter-tags">
                                                 <input id="check-a" type="checkbox" name="check">
@@ -325,14 +260,14 @@
                                         <div class="custom-form">
                                             <form method="post"   name="registerform" class="main-register-form" id="main-register-form2">
                                                 <label >First Name * </label>
-                                                <input name="name" type="text"   onClick="this.select()" value=""> 
+                                                <input name="name" type="text"   onClick="this.select()" value="">
                                                 <label>Second Name *</label>
                                                 <input name="name2" type="text"  onClick="this.select()" value="">
                                                 <label>Email Address *</label>
-                                                <input name="email" type="text"  onClick="this.select()" value="">                                              
+                                                <input name="email" type="text"  onClick="this.select()" value="">
                                                 <label >Password *</label>
-                                                <input name="password" type="password"   onClick="this.select()" value="" > 
-                                                <button type="submit"     class="log-submit-btn"  ><span>Register</span></button> 
+                                                <input name="password" type="password"   onClick="this.select()" value="" >
+                                                <button type="submit"     class="log-submit-btn"  ><span>Register</span></button>
                                             </form>
                                         </div>
                                     </div>
